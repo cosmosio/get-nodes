@@ -10,5 +10,10 @@
 var toArray = require("to-array");
 
 module.exports = function getNodes(dom) {
-    return toArray(dom.querySelectorAll("*")).unshift(dom);
+    var domElements = dom.querySelectorAll("*"),
+        arrayDomElements = toArray(domElements);
+
+    arrayDomElements.unshift(dom);
+
+    return arrayDomElements;
 };
