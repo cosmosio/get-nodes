@@ -1,0 +1,39 @@
+{
+  "name": "get-nodes",
+  "description": "Returns an array of all the elements within a dom element, including the dom element itself",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cosmosio/get-nodes",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/cosmosio/get-nodes/master/LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "author": "Olivier Scherrer <pode.fr@gmail.com>",
+  "keywords": [
+    "get",
+    "dom",
+    "nodes",
+    "elements"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cosmosio/get-nodes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cosmosio/get-nodes/issues"
+  },
+  "scripts": {
+    "test": "jasmine-node test/"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "quick-dom": "0.0.1",
+    "jasmine-node": "~1.14.3"
+  },
+  "dependencies": {}
+}
